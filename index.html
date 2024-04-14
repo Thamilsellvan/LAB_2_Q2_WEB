@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Registration</title>
+</head>
+<body>
+    <h2>Conference Registration Form</h2>
+    <form action="#" method="post">
+        <label for="full-name">Full Name:</label><br>
+        <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required> <br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" placeholder="18" min="18" max="99" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br> <br><br>
+
+        <label for="country">Country of Residence:</label><br>
+        <select id="country" name="country" placeholder="Malaysia" required>
+            <option value="">Malaysia</option>
+            <option value="USA">United States</option>
+            <option value="UK">United Kingdom</option>
+            <option value="CA">Canada</option>
+            <!-- Add more options as needed -->
+        </select><br><br>
+
+            <br>Area of Interest: <br>
+            <br><input type="checkbox" name="Area of Interest" value="Software Development">Software Development<br>
+            <input type="checkbox" name="Area of Interest" value="Data science">Data science <br>
+            <input type="checkbox" name="Area of Interest" value="Cybersecurity">Cybersecurity <br>
+            <input type="checkbox" name="Area of Interest" value="Artificial Intelligence">Artificial Intelligence <br>
+
+            <br>Experience Level: <br>
+            <br><input type="radio" name="Experience Level" value="Beginner">Beginner<br>
+             <input type="radio" name="Experience Level" value="Intermediate">Intermediate <br>
+             <input type="radio" name="Experience Level" value="Advanced">Advanced <br>
+
+            <br>Comments or Questions: <br>
+            <textarea id="Comments or Questions" name="Comments or Questions" rows="4" cols="50"> Any comments or questions?
+            </textarea>
+            <br>
+            <input type="Submit" value="Register">
+            <input type="Submit" value="Reset">
+        </html>
